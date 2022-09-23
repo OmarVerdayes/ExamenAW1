@@ -1,0 +1,11 @@
+CREATE SCHEMA `informacion` ;
+use informacion
+CREATE TABLE `informacion`.`informacion1` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  `appellido1` VARCHAR(45) NULL,
+  `apellido2` VARCHAR(45) NULL,
+  `curp` VARCHAR(45) NULL,
+  `rfc` VARCHAR(45) NULL,
+  `fechaN` DATE NULL,
+  PRIMARY KEY (`id`));
